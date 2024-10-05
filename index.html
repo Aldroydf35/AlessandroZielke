@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" lang="en">
+    <title>Portifolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+<style>
+body{
+    background-color: #000000;
+        margin: 0;
+        padding: 0;
+        font-family: "Sora", sans-serif;
+}
+ul{
+        list-style: none;
+}
+.roxo{
+    background: rgb(15,7,21);
+    background: radial-gradient(circle, rgba(15,7,21,1) 0%, rgba(40,23,69,1) 180%);
+    color:#ffffff;
+    height: 945px;
+    margin: auto;
+    width: 100%;
+}
+.quadrado{
+    height: 945px;
+    margin:auto;
+    width: 1500px;
+}
+.esquerda{
+    float:left;
+    margin:auto;
+    padding: 200px 0 0 80px;
+    text-align: center;
+}
+.textoBonito{
+    font-size: 50px;
+    margin: 0 0 0 20px;
+    background-image: linear-gradient(43deg, #9020FF 0%, #C12B90 46%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.foto{
+    float:right;
+    margin:auto;
+    padding: 250px 190px 0 0px;
+    color:#000000;
+}
+.dados{
+    color:#ffffff;
+    padding: 750px 0 0 250px;
+    text-align: center;
+}
+.dado1{
+    height: 80px;
+    width: 200px;
+    margin: 0 0 0 40px;
+    float: left;
+}
+.dado2{
+
+    height: 80px;
+    width: 200px;
+    margin: 0 0 0 55px;
+    float: left;
+}
+.dado3{
+
+    height: 80px;
+    width: 200px;
+    margin: 0 0 0 55px;
+    float: left;
+}
+.dado4{
+    height: 80px;
+    width: 200px;
+    margin: 0 0 0 55px;
+    float: left;
+}
+.textasso{
+    float:left;
+    color:#FFFFFF;
+    font-size:60px;
+}
+.preto{
+    background-color: #050709;
+    color:#ffffff;
+    height: 945px;
+    margin:0px;
+    width: 100%;
+
+}
+.barra{
+    color:#ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #000000;
+    margin:auto;
+    width: 1500px;
+    height: 70px;
+}
+.canto{
+    float:right;
+    height: 30px;
+    width: 900px;
+}
+.logo{
+    float:left
+}
+.listaCanto{
+padding:0;
+margin:0;
+}
+.listaCanto li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.texto{
+    color: #ffffff;
+    text-align:center;
+    float: center;
+    font-size:30px;
+}
+.bloco{
+    height: 300px;
+    margin:auto;
+    width: 1000px;
+    padding: 175px 30px 30px 270px;
+    font-size: 40px;
+    float:left;
+
+}
+.explica{
+    color: #ffffff;
+    text-align:center;
+    float: right;
+    font-size:18px;
+    padding: 0 0 0 0;
+}
+.lista{
+    color: #ffffff;
+    text-align:center;
+    float: left;
+    font-size:30px;
+    padding: 0 0 0 40px;
+}
+.barrinha{
+    background-color: #08040c;
+    color: #ffffff;
+    height:30px;
+    width:300px;
+    text-align: center;
+    margin:auto;
+    font-size: 20px;
+}
+.trabalhos{
+    height: 650px;
+    margin:auto;
+    width: 1000px;
+    padding: 30px 30px 30px 30px;
+    font-size: 40px;
+}
+.imagemBaixo{
+    margin: 350px 0 0 0;
+    background-color: red;
+}
+.educacao{
+    float:right;
+    width: 400px;
+    height: 800px;
+    padding: 30px 150px 0 0;
+    text-align: center;
+    font-size: 28px;
+
+}
+.experiencia{
+    float:left;
+    width: 400px;
+    height: 800px;
+    padding: 30px 0 0 150px;
+    text-align: center;
+    font-size:  28px;
+}
+.pequeno{
+    font-size: 18px;
+}
+.textoPequeno{
+    color: #ffffff;
+    text-align:center;
+    float: center;
+    font-size:20px;
+}
+.skills{
+    height: 350px;
+    margin:auto;
+    width: 1500px;
+    padding: 80px 30px 30px 30px;
+    font-size: 40px;
+
+}
+.quadradinhos{
+    height:150px;
+    width: 110px;
+    margin: 0 0 0 50px;
+    padding: 30px;
+    float:left;
+    background-color: #301454;
+    border-width: 2px;
+    border-style:solid;
+    border-color: #8650f6;
+    border-radius: 50px;
+
+}
+.imagemQuadradinhos{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height:70px
+}
+.textoQuadradinhos{
+  font-size: 25px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:40%
+}
+.grandao{
+
+    float:left;
+    margin:auto;
+    padding: 250px 0 0 0;
+    text-align: center;
+    font-size: 40px;
+}
+.pontinhos{
+    float: right;
+    color:#AA00FF;
+    font-size: 40px;
+    margin:0 306px 0 0; 
+}
+.clientes{
+    float:right;
+    width:650px;
+    height:400px;
+    margin:200px 0 0 0;
+}
+.blogPosts, .ultimoBlogPost{
+    margin: 80px 90px 0 80px;
+    width: 325px;
+    height: 325px;
+    float: left;
+}
+.ultimoBlogPost{
+    margin:0px
+}
+.imagemBlog{
+    width: 355px;
+    height: 355px;
+}
+.cadastro{
+    background-color: #140c1c;
+    width: 600px;
+    height: 700px;
+    padding: 20px 0 0 0;
+    float: left;
+    border-radius: 15px;
+}
+.pretoCadastro{
+
+    background-color: #050709;
+    color:#ffffff;
+    height: 945px;
+    margin: 0 0 0 0;
+    padding: 100px 0 0 0;
+    width: 100%;
+
+}
+.textoPequenoEsquerda{
+    color: #ffffff;
+    text-align:left;
+    float: left;
+    font-size:20px;
+    margin: 00px 0 0 20px;
+}
+.telefone{
+    width: 800px;
+    height:30px; 
+    float: right;
+    font-size: 30px;
+    margin: 150px 0 0 0;
+}
+.contato{
+    width: 800px;
+    height:30px; 
+    float: right;
+    font-size: 30px;
+    margin: 150px 0 0 0;
+}
+.endereco{
+    width: 800px;
+    height:30px; 
+    float: right;
+    font-size: 30px;
+    margin: 150px 0 0 0;
+}
+.informacoes{
+    font-size: 20px;
+    margin: 20px 20px 0 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius:8px;
+}
+.selecione{
+    font-size: 40px;
+    margin: 30px 0 0 15px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.caixa{
+    margin: 30px 0 0 20px;
+    font-size: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.botao{
+    font-size: 20px;
+    margin: 25px 20px 0 20px;
+    background: rgb(201,161,250);
+    background: linear-gradient(90deg, rgba(201,161,250,1) 0%, rgba(92,20,179,1) 9%, rgba(86,19,167,1) 17%, rgba(87,19,169,1) 23%, rgba(76,17,144,1) 40%, rgba(65,15,120,1) 54%, rgba(55,13,99,1) 65%, rgba(51,12,90,1) 78%, rgba(43,9,65,0.76234243697479) 100%);
+
+    color: #FFFFFF;
+    border-radius: 30px;
+}
+.bolas{
+    background: rgb(15,7,12);
+    background: radial-gradient(circle, rgba(15,7,12,1) 0%, rgba(60,32,111,2) 180%);
+    height: 137px;
+    border-radius: 50px;
+}
+.clientesReais{
+    background-color: #140c1c;
+    width: 260px;
+    height: 400px;
+    padding: 25px;
+    margin: 0 15px 0 0;
+    float: left;
+    border-radius: 30px;
+}
+.menuzinho{
+    background: rgb(201,161,250);
+    background: linear-gradient(90deg, rgba(201,161,250,1) 0%, rgba(92,20,179,1) 9%, rgba(86,19,167,1) 17%, rgba(87,19,169,1) 23%, rgba(76,17,144,1) 40%, rgba(65,15,120,1) 54%, rgba(55,13,99,1) 65%, rgba(51,12,90,1) 78%, rgba(43,9,65,0.76234243697479) 100%);
+    font-size:20px;
+    color:#ffffff;
+    border-radius: 15px;
+
+}
+.perfilCliente{
+float:right;
+border-radius: 0 0 0 150px;
+width: 100px;
+height: 100px;
+}
+.logoCliente{
+    float:left;
+    height:40px;
+    width:40px;
+}
+</style>
+
+</head>
+
+<header>
+
+        <div class="barra">
+
+                <img class:="logo" src="https://static.miraheze.org/hololivewiki/thumb/f/ff/Logo_-_hololive_(Textless).png/240px-Logo_-_hololive_(Textless).png" width="30" height="30" >
+                email@emailmesmo.com
+            
+        <div class="canto">
+            <ul class="listaCanto">
+                <li>Home +</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>portifolios</li>
+                <li>Blog+</li>
+                <li>Contact</li>
+                <li><button class="botao" type="button">Hire Me!</button></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<body>
+
+<div class="roxo">
+    
+
+    <div class="quadrado">
+        <div class="esquerda">
+        <p>I am Gerold</p> 
+        <p class="textoBonito">Web Developer +<br>UX Designer </p>
+        <p>I break down complex user experinece problems to <br>create integritiy focussed solutions that connect <br>billions of people</p>
+        </div>
+
+        <div class="foto">
+        <img src="https://i.imgur.com/1IhxXv0.png" width="300" height="300">
+        </div>
+
+        <div class="dados">
+            <div class="dado1"><p class="textasso">2</p> <p><br><br><br><br>Months of<br>expericence</p></div>
+            <div class="dado2"><p class="textasso">0+</p> <p><br><br><br><br>Projects<br>completed</p></div>
+            <div class="dado3"><p class="textasso">.5</p> <p><br><br><br><br>Happy<br>Clients</p></div>
+            <div class="dado4"><p class="textasso">2</p> <p><br><br><br><br>Months of<br>expericence</p></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="preto">
+    <div class="quadrado">
+    <br><br><br>
+    <div class="texto">
+    <p class="textoBonito">My Quality Services</p>
+    </div>
+    <div class="bloco">
+        <div class="lista">
+            01. Brand Designing
+            <br><br><br>
+            02. Web Design
+            <br><br><br>
+            03. UI/UX Design
+            <br><br><br>
+            04. Graphics Design
+        
+        </div>
+        <div class="explica">
+            I break down complex user experinece <br> problems to create integritiy focussed <br> solutions that
+            connect billions of people
+             <br><br><br>
+            I break down complex user experinece <br> problems to create integritiy focussed <br> solutions that
+            connect billions of people
+            <br><br><br>
+            I break down complex user experinece <br> problems to create integritiy focussed <br> solutions that
+            connect billions of people
+            <br><br><br>
+            I break down complex user experinece <br> problems to create integritiy focussed <br> solutions that
+            connect billions of people
+        </div>
+    </div>
+    </div>
+</div>
+
+<div class="roxo">
+    <div class="quadrado">
+        <br><br><br>
+            <div class="texto">
+            <p class="textoBonito">My Recent Works</p>
+            </div>
+            <div class="barrinha">
+                <button class="menuzinho" type="button">All</button>
+                <button class="menuzinho" type="button">UX/UI</button>
+                <button class="menuzinho" type="button">Branding</button>
+                <button class="menuzinho" type="button">Apps</button>
+            </div>
+                <div class="trabalhos">
+                    <img align="right" src="https://i.imgur.com/lh2SlnQ.png" width="300" height="300">
+                <img align="left" src="https://i.imgur.com/lh2SlnQ.png" width="300" height="300">
+                <div class="imagemBaixo">
+                    <img align="right" src="https://i.imgur.com/lh2SlnQ.png" width="300" height="300">
+                    <img align="left" src="https://i.imgur.com/lh2SlnQ.png" width="300" height="300">
+                </div>
+            </div>
+    </div>
+</div>
+
+<div class="preto">
+    <div class="quadrado">
+        <div class="experiencia">
+        <p class="textoBonito">My Experience</p>
+            <div class="bolas">
+            <p class="pequeno">2022-present</p>
+            <p>Lead Developer</p>
+            <p class="pequeno">Blockdots, London</p>
+            </div>
+            <br><br>
+            <div class="bolas">
+            <p class="pequeno">2021-2022</p>
+            <p>Full Stack Web Developer</p>
+            <p class="pequeno">Parsons, The New School</p>
+            </div>
+            <br><br>
+            <div class="bolas">
+            <p class="pequeno">2020-2021</p>
+            <p>UI Designer</p>
+            <p class="pequeno">House of Life, Leeds</p>
+            </div>
+            <br><br>
+            <div class="bolas">
+            <p class="pequeno">2018-2020</p>
+            <p>Junior Graphics Designer</p>
+            <p class="pequeno">Theme Junction, Bursa</p>
+            </div>
+        </div>
+
+        <div class="educacao">
+        <p class="textoBonito">My Education</p>
+            <div class="bolas">
+            <p class="pequeno">2020-2023</p>
+            <p>Programing Course</p>
+            <p class="pequeno">Haverd University</p>
+            </div>
+            <br><br>
+            <div class="bolas">
+            <p class="pequeno">2016-2020</p>
+            <p>Graphic Design Course</p>
+            <p class="pequeno">University of Denmark</p>
+            </div>
+            <br><br>
+            <div class="bolas">
+            <p class="pequeno">2012-2015</p>
+            <p>Web Design Course</p>
+            <p class="pequeno">University of California</p>
+            </div>
+            <br><br>
+            <div class="bolas">
+            <p class="pequeno">2010-2011</p>
+            <p>Design and Technology</p>
+            <p class="pequeno">Parsons, The New School</p>
+            </div>
+        </div>
+
+
+        
+    </div>    
+</div>
+
+<div class="roxo">
+    <div class="quadrado">
+        <br><br><br>
+            <div class="texto">
+            <p class="textoBonito">My Skills</p>
+            </div>
+            <div class="textoPequeno">
+            <p>We put your ideas and thus your wishes in the form of a unique web project that <br> inspires you and you customers.</p> <br><br><br>
+            </div>
+
+            <div class="skills">
+            <div class="quadradinhos">
+            <img class="imagemQuadradinhos" src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" width="140" height="130">
+            <p class="textoQuadradinhos">92%</p>
+            <p class="textoPequeno"> Figma</p>
+            </div>
+
+            <div class="quadradinhos">
+            <img class="imagemQuadradinhos" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Sketch_Logo.svg" width="140" height="130">
+            <p class="textoQuadradinhos">80%</p>
+            <p class="textoPequeno"> Sketch</p>
+            </div>
+
+            <div class="quadradinhos">
+            <img class="imagemQuadradinhos" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Adobe_XD_CC_icon.svg" width="140" height="130">
+            <p class="textoQuadradinhos">85%</p>
+            <p class="textoPequeno"> XD</p>
+            </div>
+
+            <div class="quadradinhos">
+            <img class="imagemQuadradinhos" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png" width="140" height="130">
+            <p class="textoQuadradinhos">99%</p>
+            <p class="textoPequeno"> WordPress</p>
+            </div>
+
+            <div class="quadradinhos">
+            <img class="imagemQuadradinhos" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="140" height="130">
+            <p class="textoQuadradinhos">89%</p>
+            <p class="textoPequeno"> React</p>
+            </div>
+
+            <div class="quadradinhos">
+            <img class="imagemQuadradinhos" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="140" height="130">
+            <p class="textoQuadradinhos">93%</p>
+            <p class="textoPequeno"> Javascript</p>
+            </div>
+            </div>
+    </div>
+</div>
+
+<div class="preto">
+    
+    <div class="quadrado">
+    <div class="grandao">
+    <p class="textoBonito">My Client's Stories</p>
+    <p class="textoPequeno">Empowering people in new a digital journey <br> with my super services</p>
+    </div>
+
+    <div class="clientes">
+    <div class="clientesReais"><img class="perfilCliente"src="https://as1.ftcdn.net/v2/jpg/02/35/89/16/1000_F_235891659_Dajk9jQN45b71PTwKjeuZQR3NgBvFgSJ.jpg"><img class="logoCliente"src="https://play-lh.googleusercontent.com/DTzWtkxfnKwFO3ruybY1SKjJQnLYeuK3KmQmwV5OQ3dULr5iXxeEtzBLceultrKTIUTr"><br><br><br><br><br><br><br><br><br>"Taylor is a professional <br>Designer he really helps my <br> business by providing value <br> to my business." <br><br><br><br>Marcio<br><br><br>Professor</div>
+    <div class="clientesReais"><img class="perfilCliente"src="https://media.istockphoto.com/id/144231485/photo/husband.jpg?s=612x612&w=0&k=20&c=us6fg80fDZi_4rpOqRx6vfXvfpEuIGVOUXwNBiN-sf8="><img class="logoCliente"src="https://play-lh.googleusercontent.com/DTzWtkxfnKwFO3ruybY1SKjJQnLYeuK3KmQmwV5OQ3dULr5iXxeEtzBLceultrKTIUTr"><br><br><br><br><br><br><br><br><br>"Taylor is a professional <br>Designer he really helps my <br> business by providing value <br> to my business." <br><br><br><br>Marcio<br><br><br>Professor</div>
+    <p class="pontinhos">. . .</p>
+    </div>
+    
+    </div>
+</div>
+
+<div class="roxo">
+    <div class="quadrado">
+    <br><br><br>
+            <div class="texto">
+            <p class="textoBonito">Recent Blogs</p>
+            </div>
+            <div class="textoPequeno">
+            <p>We put your ideas and thus your wishes in the form of a unique web project that <br> inspires you and you customers.</p> <br><br><br>
+            </div>
+            <div class="blogPosts"> <img class="imagemBlog" src="https://st4.depositphotos.com/13193658/22076/i/450/depositphotos_220768966-stock-photo-successful-african-american-businessman-working.jpg"/> </div>
+            <div class="blogPosts"> <img class="imagemBlog" src="https://img.freepik.com/fotos-gratis/retrato-de-homem-com-deficiencia-em-cadeira-de-rodas-dando-polegares-para-cima_23-2150520444.jpg"/> </div>
+            <div class="blogPosts"> <img class="imagemBlog" src="https://blog.cronapp.io/wp-content/uploads/2020/12/gestor-de-ti.jpg"/> </div>
+    </div>
+</div>
+
+<div class="pretoCadastro">
+    
+    <div class="quadrado">
+    <div class="cadastro">
+    <p class="textoBonito">Let's work together!</p>
+    <p class="textoPequenoEsquerda"><br>I design and code beautifully simple things and i love what i do. Just<br>simple like that!</p>
+    <form action="" method="POST" enctype="multipart/form-data">
+    <input class="informacoes" placeholder="First Name"type="text" name="nome" value="" />
+    <input class="informacoes" placeholder="Last Name"type="text" name="sobrenome" value="" />
+    <input class="informacoes" placeholder="E-Mail Address"type="text" name="email" value="" />
+    <input class="informacoes" placeholder="Phone Number"type="text" name="numeroTelefone" value="" />
+        <select class="selecione" type="text" name="Servico" value="">
+            <option value selected disabled> Choose what service you want</option>
+            <option value="branding">Branding Desing</option>
+            <option value="webDesing">Web Design</option>
+            <option value="uiux">UI/UX Desing</option>
+            <option value="aplicativo">APP Design</option>
+        </select>
+        <textarea class="caixa" name="mesage" placeholder="Message" cols="32" rows="5"></textarea>
+        <button class="botao" type="button">Send Message</button>
+    </form>
+    </div>
+    
+    <div class="telefone"> <img width="80" height="80" src="https://img.icons8.com/ios/50/FFFFFF/apple-phone.png" alt="phone"/> +55 (12) 9 92494981</div>
+    <div class="contato"> <img width="80" height="80" src="https://img.icons8.com/windows/32/FFFFFF/new-post.png" alt="new-post"/> zielkeaj@gmail.com</div>
+    <div class="endereco">
+       <p>
+        <ul>
+            <li>1600 Pennsylvania Ave</li>
+            <li>NW, Washington, D.C. 20500, <br> United States </li>
+        </ul>
+        </p>
+    </div>
+
+    </div>
+</div>
+</body>
+</html>
